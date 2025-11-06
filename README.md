@@ -90,6 +90,7 @@ Each problem produces a single performance figure.
 ### Social Network Friend Suggestion (BFS/DFS)
 
 ![BFS Timing](images/bfs_time_nodes.png)
+
 → Execution time vs number of users in the graph.
 
 > **Insight**: BFS scales linearly with edges and is ideal for finding level-wise “friend-of-friend” sets.
@@ -99,6 +100,7 @@ Each problem produces a single performance figure.
 ### Route Finding with Negative Edges (Bellman–Ford)
 
 ![Bellman–Ford Timing](images/bellmanford_time_vs_v.png)
+
 → Execution time vs number of vertices.
 
 > **Insight**: Bellman–Ford is slower but handles negative weights and detects negative cycles safely.
@@ -108,6 +110,7 @@ Each problem produces a single performance figure.
 ### Emergency Response Path Planning (Dijkstra)
 
 ![Dijkstra Timing](images/dijkstra_time_vs_nodes.png)
+
 → Execution time vs number of intersections.
 
 > **Insight**: Using a min-heap keeps the algorithm efficient for large positive-weight road networks.
@@ -117,6 +120,7 @@ Each problem produces a single performance figure.
 ### Network Cable Installation (MST: Prim/Kruskal)
 
 ![Prim MST Timing](images/prim_mst_time_vs_nodes.png)
+
 → Execution time vs nodes in a growing infrastructure graph.
 
 > **Insight**: Prim performs well on dense adjacency-list graphs; Kruskal is strong on sparse or edge-list inputs.
